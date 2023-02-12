@@ -1,0 +1,39 @@
+this is install DB => https://www.youtube.com/watch?v=HhfnuGcB3wc 
+$PATH {
+    nano .bashrc 
+git branch -M main
+gedit .bashrc
+}
+
+
+create fil in ubu => touch name-fil
+
+
+
+
+commend Git {
+
+For pushing into git : 
+$ git init
+$ git status
+$ git add .
+$ git config --global user.name "username"
+$ git config --global user.email "user email"
+$ git commit -m "commit message"
+$ git remote add origin "github repository link"
+$ git push -u origin master 
+}
+
+Yout git {
+https://www.youtube.com/watch?v=ytSoabxSQ6E
+https://www.youtube.com/watch?v=H3KjgiBaakM
+}
+
+ToK => {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}
+
+
+
+
+Viety =>grde {
+    https://www.google.com/search?q=vuetify+grid+system+tutorial&oq=vuetify+grid+system+tutorial&aqs=chrome..69i57j69i64j69i60j69i61.401j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:b5f82831,vid:vt61pfP34HE
+}
