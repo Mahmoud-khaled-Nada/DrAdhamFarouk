@@ -29,7 +29,7 @@
 }
 
 .first-infor img {
-    width: 190px;
+    width: 150px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -46,21 +46,21 @@ h3 {
 }
 
 .infor {
-
     margin: 10px;
     position: relative;
-    top: 50px;
+    top: 10px;
+    width: 100%;
 }
 
 .infor h3 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
 }
 
 .infor p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
     color: #222;
 }
 
@@ -69,8 +69,15 @@ h3 {
     position: relative;
     padding: 0;
 }
+.sconde-infor img {
+    max-width: 100%;
+}
 .sconde-infor p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 13px;
     color: #222;
+}
+
+.mn-video {
+
 }
