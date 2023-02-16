@@ -3,7 +3,7 @@
         <div class="headr">
             <v-container fluid>
                 <v-row>
-                    <v-col cols="12" xs="12" sm="12" md="12" lg="5" xl="5">
+                    <v-col cols="12" xs="12" sm="12" md="4" lg="6" xl="6">
                         <v-sheet class="pa-2 ma-2">
                             <div class="first-infor">
                                 <img
@@ -12,40 +12,20 @@
                                     <h2>Dr. Adham Farouk</h2>
                                     <h3>Plastic Surgery Clinic</h3>
                                     <h3>www.AdhamFarouk.com</h3>
-                                    <h3>www.AdhamFarouk.com</h3>
-                                    <h3>www.AdhamFarouk.com</h3>
+                                </div>
+                                <div class="backgro-infor">
+                                    <img class="img-one" src="../../assets/circle2.png" alt="">
+                                    <img class="img-two" src="../../assets/dots.png" alt="">
+                                    <img class="img-theer" src="../../assets/square2.png" alt="">
                                 </div>
                             </div>
                             <div class="infor">
-                                <h3>Clinic’s Scope includes</h3>
-                                <p>
-                                    Aesthetic Surgery: Rhinoplasty – Otoplasty – Eyelids Surgery
-                                    Breast Surgery: Reduction – Augmentation – Lifting – Reconstructing – Gynecomastia
-                                    Body Sculpting: Abdominoplasty – Arm Lift – Thighs Lift – Body Lift – Liposuction –
-                                    Fat
-                                    injection
-                                    Congenital Anomalies: Cleft lip – Maxillo-Facial – Ear – Nose – Hand – Foot –
-                                    Genitalia
-                                    Hand Surgery: Injuries – Tumors – Infections – Re-plantation
-                                    Burn: Treatment of Burn – Post-burn Deformities
-                                    Injuries: Face – Skin and Soft tissues all over the body – Scar removal
-                                    Tumors: Face – Skin and Soft tissues all over the body
-                                </p>
+                                <clinics-scope />
                             </div>
                         </v-sheet>
                     </v-col>
-                    <v-col cols="12" xs="12" sm="12" md="12" lg="7" xl="7">
-                        <v-sheet class="pa-2 ma-2">
-                            <div class="sconde-infor">
-                                <img
-                                    src="http://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_38.jpg" />
-                                <p>
-                                    Plastic Surgery means restoration of the natural form of human
-                                    body. The extensive field of Plastic Surgery intervenes with the<br />
-                                    boundaries of other fields of science and art
-                                </p>
-                            </div>
-                        </v-sheet>
+                    <v-col cols="12" xs="12" sm="12" md="8" lg="6" xl="6">
+                        <plastic-surgery />
                     </v-col>
                 </v-row>
             </v-container>
@@ -53,28 +33,11 @@
         <div class="body">
             <v-container fluid>
                 <v-row>
-                    <v-col cols="12" xs="12" sm="12" md="8" lg="7" xl="7">
-                        <div class="carousel pa-2 ma-2">
-                            <v-carousel cycle height="400" hide-delimiter-background show-arrows="hover">
-                                <v-carousel-item v-for="(item, i) in images" :key="i" :src="item.src"
-                                    cover></v-carousel-item>
-                            </v-carousel>
-                        </div>
+                    <v-col cols="12" xs="12" sm="12" md="7" lg="6" xl="6">
+                        <carouse-image />
                     </v-col>
-                    <v-col cols="12" xs="12" sm="12" md="4" lg="5" xl="5">
-                        <v-sheet class="ma-2 pa-2">
-                            <div class="mn-video">
-                                <v-card class="mx-auto">
-                                    <video controls width="600" height="400" autoplay loop muted
-                                        poster="imgs/home/cover-speed-website.png">
-                                        <source 
-                                            src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Promo-01-trans02-music01-1.mp4"
-                                            type="video/mp4">
-                                        <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="English">
-                                    </video>
-                                </v-card>
-                            </div>
-                        </v-sheet>
+                    <v-col cols="12" xs="12" sm="12" md="5" lg="6" xl="6">
+
                     </v-col>
                 </v-row>
             </v-container>
@@ -82,8 +45,16 @@
     </div>
 </template>
 <script>
+import PlasticSurgery from "@/components/home-component/PlasticSurgery.vue"
+import ClinicsScope from "@/components/home-component/ClinicsScope.vue"
+import CarouseImage from "@/components/home-component/CarouseImage.vue"
 export default {
     name: "InformationMe",
+    components:{
+        PlasticSurgery,
+        ClinicsScope,
+        CarouseImage
+    },
     data() {
         return {
             colors: [
@@ -94,26 +65,6 @@ export default {
                 'deep-purple accent-4',
             ],
             show: false,
-            images: [
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_02.jpg',
-                },
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Cleft-lip-palate-_04.jpg',
-                },
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Breast-Augmentation-_02-03.jpg',
-                },
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Liposuction-_02.jpg',
-                },
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Otoplasty-traumatic-_01.jpg'
-                },
-                {
-                    src: 'https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Skin-Tumours-_03.jpg'
-                },
-            ],
         }
     },
 };
