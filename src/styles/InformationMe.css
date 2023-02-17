@@ -48,9 +48,9 @@ h3 {
 }
 
 .infor {
-    margin: 10px;
+    /* margin: 10px; */
     position: relative;
-    top: 123px;
+    top: 52px;;
     width: 100%;
 }
 
@@ -67,7 +67,7 @@ h3 {
 }
 
 .sconde-infor {
-    margin: 10px;
+    /* margin: 10px; */
     position: relative;
     padding: 0;
 }
@@ -111,5 +111,11 @@ h3 {
     width: 400px;
     opacity: 0.5;
 }
-
-
+.backgro-infor .triangle-one{
+position: absolute;
+top: 128px;
+left: 78%;
+width: 150px;
+z-index: 0;
+opacity: 0.5;
+}

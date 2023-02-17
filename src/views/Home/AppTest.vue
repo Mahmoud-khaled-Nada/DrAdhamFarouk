@@ -31,17 +31,11 @@
           <template v-slot:activator="{ props }">
             <v-list-item v-bind="props" title="Languages"></v-list-item>
           </template>
-          <v-list-item
-            v-for="([title, icon], i) in cruds"
-            :key="i"
-            :value="title"
-            :title="title"
-            :prepend-icon="icon"
+          <v-list-item v-for="([title, icon], i) in cruds" :key="i" :value="title" :title="title" :prepend-icon="icon"
           ></v-list-item>
         </v-list-group>
       </v-list>
     </v-navigation-drawer>
-
     <v-app-bar>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Application</v-toolbar-title>

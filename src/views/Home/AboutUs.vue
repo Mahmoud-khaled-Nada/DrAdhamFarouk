@@ -1,59 +1,51 @@
 <template>
-    <v-container>
-        <v-row justify="space-around">
-            <v-card width="100%">
-                <v-img height="350"
-                    src="http://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_38.jpg"
-                    cover class="text-white">
-                    <v-toolbar color="rgba(0, 0, 0, 0)" theme="dark">
-                        <v-toolbar-title class="text-h6">
-                            Info...
-                        </v-toolbar-title>
-                    </v-toolbar>
-                </v-img>
-                <v-card-text>
-                    <div class="font-weight-bold ms-1 mb-2">
-                        Today
-                    </div>
-                    <v-timeline density="compact" align="start">
-                        <v-timeline-item v-for="message in messages" :key="message.time" :dot-color="message.color"
-                            size="x-small">
-                            <div class="mb-4">
-                                <div class="font-weight-normal">
-                                    <strong>{{ message.from }}</strong>
-                                </div>
-                                <div>{{ message.message }}</div>
-                            </div>
-                        </v-timeline-item>
-                    </v-timeline>
-                </v-card-text>
-            </v-card>
+    <div class="main-conntentccc">
+        <v-row>
+            <v-col cols="12" sm="6">
+                <v-hover v-slot="{ isHovering, props }" open-delay="200">
+                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
+                        height="200" max-width="200" v-bind="props">
+                        <!--  -->
+                        <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Gynaecomastia-_01.jpg">
+                    </v-card>
+                </v-hover>
+            </v-col>
+            <v-col cols="12" sm="6">
+                <v-hover v-slot="{ isHovering, props }" open-delay="200">
+                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
+                        height="200" max-width="200" v-bind="props">
+                        <!--  -->
+                    </v-card>
+                </v-hover>
+            </v-col>
+            <v-col cols="12" sm="6">
+                <v-hover v-slot="{ isHovering, props }" open-delay="200">
+                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
+                        height="200" max-width="200" v-bind="props">
+                        <!--  -->
+                    </v-card>
+                </v-hover>
+            </v-col>
+            <v-col cols="12" sm="6"> <v-hover v-slot="{ isHovering, props }" open-delay="200">
+                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
+                        height="200" max-width="200" v-bind="props">
+                        <!--  -->
+                    </v-card>
+                </v-hover></v-col>
         </v-row>
-    </v-container>
+    </div>
 </template>
-
 <script>
 export default {
-    data: () => ({
-        messages: [
-            {
-                from: 'Plastic Surgery',
-                message: `means restoration of the natural form of human
-                          body. The extensive field of Plastic Surgery intervenes with the
-                          boundaries of other fields of science and art`,
-                color: 'deep-purple-lighten-1',
-            },
-            //   {
-            //     from: 'John Doe',
-            //     message: '',
-            //     time: '10:37am',
-            //     color: 'green',
-            //   },
-        ],
-    }),
+
 }
 </script>
-
 <style scoped>
+.v-card.on-hover.v-theme--dark {
+    background-color: rgba(#FFF, 0.8)
+}
 
+.v-card.on-hover.v-theme--dark.v-card__text {
+    color: #000
+}
 </style>

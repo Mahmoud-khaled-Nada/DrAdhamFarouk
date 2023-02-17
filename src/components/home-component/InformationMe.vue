@@ -3,7 +3,7 @@
         <div class="headr">
             <v-container fluid>
                 <v-row>
-                    <v-col cols="12" xs="12" sm="12" md="4" lg="6" xl="6">
+                    <v-col cols="12" xs="11" sm="11" md="4" lg="6" xl="6">
                         <v-sheet class="pa-2 ma-2">
                             <div class="first-infor">
                                 <img
@@ -24,7 +24,7 @@
                             </div>
                         </v-sheet>
                     </v-col>
-                    <v-col cols="12" xs="12" sm="12" md="8" lg="6" xl="6">
+                    <v-col cols="12" xs="11" sm="11" md="8" lg="6" xl="6">
                         <plastic-surgery />
                     </v-col>
                 </v-row>
@@ -32,12 +32,15 @@
         </div>
         <div class="body">
             <v-container fluid>
+                <div class="backgro-infor">
+                <img class="triangle-one" src="../../assets/triangle.png">
+            </div>
                 <v-row>
-                    <v-col cols="12" xs="12" sm="12" md="7" lg="6" xl="6">
+                    <v-col cols="12" xs="11" sm="10" md="8" lg="8" xl="8">
                         <carouse-image />
                     </v-col>
-                    <v-col cols="12" xs="12" sm="12" md="5" lg="6" xl="6">
-
+                    <v-col cols="12" xs="11" sm="10" md="4" lg="4" xl="5">
+                        <about-us />
                     </v-col>
                 </v-row>
             </v-container>
@@ -48,12 +51,14 @@
 import PlasticSurgery from "@/components/home-component/PlasticSurgery.vue"
 import ClinicsScope from "@/components/home-component/ClinicsScope.vue"
 import CarouseImage from "@/components/home-component/CarouseImage.vue"
+import AboutUs from "@/views/Home/AboutUs.vue"
 export default {
     name: "InformationMe",
     components:{
         PlasticSurgery,
         ClinicsScope,
-        CarouseImage
+        CarouseImage,
+        AboutUs
     },
     data() {
         return {
