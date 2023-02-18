@@ -14,10 +14,12 @@ create fil in ubu => touch name-fil
 commend Git {
 
 For pushing into git : 
+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
+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
 $ git init
 $ git status
 $ git add .
-$ sudo git config --global user.name "Mahmoud-Khaled-Nada"
+$ sudo git config --global user.name "Mahmoud-khaled-Nada"
 $ sudo git config --global user.email "mahmoudkhalednada00@gmail.com"
 $ git commit -m "commit message"
 $ git remote add origin "github repository link"
