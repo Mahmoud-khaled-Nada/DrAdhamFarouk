@@ -32,25 +32,26 @@
 
 .first-infor img {
     width: 150px;
-    margin: 10px;
     border-radius: 10px;
 }
 
-h2 {
+.first-infor h2 {
     font-family: 'Lobster', cursive;
     color: #9b51e0;
     font-size: 30px;
+    margin: 0 10px;
 }
 
-h3 {
+.first-infor h3 {
     color: #00d084;
     font-size: 20px;
+    margin: 0 10px;
 }
 
 .infor {
     /* margin: 10px; */
     position: relative;
-    top: 52px;;
+    top: 190px;;
     width: 100%;
 }
 

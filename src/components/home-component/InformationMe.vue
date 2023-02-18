@@ -36,10 +36,10 @@
                 <img class="triangle-one" src="../../assets/triangle.png">
             </div>
                 <v-row>
-                    <v-col cols="12" xs="11" sm="10" md="8" lg="8" xl="8">
+                    <v-col cols="12" xs="11" sm="10" md="7" lg="7" xl="7">
                         <carouse-image />
                     </v-col>
-                    <v-col cols="12" xs="11" sm="10" md="4" lg="4" xl="5">
+                    <v-col cols="12" xs="11" sm="10" md="5" lg="5" xl="5">
                         <about-us />
                     </v-col>
                 </v-row>

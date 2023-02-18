@@ -1,6 +1,6 @@
 <template>
     <div class="carousel pa-2 ma-2">
-        <v-carousel cycle height="400" hide-delimiter-background show-arrows="hover">
+        <v-carousel cycle height="443" hide-delimiter-background show-arrows="hover">
             <v-carousel-item v-for="(item, i) in images" :key="i" :src="item.src"
                 cover></v-carousel-item>
         </v-carousel>
@@ -35,5 +35,5 @@ export default {
 }
 </script>
 <style lang="">
-    
+
 </style>

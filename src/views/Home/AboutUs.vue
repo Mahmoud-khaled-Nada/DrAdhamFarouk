@@ -1,39 +1,14 @@
 <template>
-    <div class="main-conntentccc">
-        <v-row>
-            <v-col cols="12" sm="6">
-                <v-hover v-slot="{ isHovering, props }" open-delay="200">
-                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
-                        height="200" max-width="200" v-bind="props">
-                        <!--  -->
-                        <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Gynaecomastia-_01.jpg">
-                    </v-card>
-                </v-hover>
-            </v-col>
-            <v-col cols="12" sm="6">
-                <v-hover v-slot="{ isHovering, props }" open-delay="200">
-                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
-                        height="200" max-width="200" v-bind="props">
-                        <!--  -->
-                    </v-card>
-                </v-hover>
-            </v-col>
-            <v-col cols="12" sm="6">
-                <v-hover v-slot="{ isHovering, props }" open-delay="200">
-                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
-                        height="200" max-width="200" v-bind="props">
-                        <!--  -->
-                    </v-card>
-                </v-hover>
-            </v-col>
-            <v-col cols="12" sm="6"> <v-hover v-slot="{ isHovering, props }" open-delay="200">
-                    <v-card :elevation="isHovering ? 16 : 2" :class="{ 'on-hover': isHovering }" class="mx-auto"
-                        height="200" max-width="200" v-bind="props">
-                        <!--  -->
-                    </v-card>
-                </v-hover></v-col>
-        </v-row>
+  <div class="main">
+    <div class="one">
+      <div class="nada-1"></div>
+      <div class="nada-2"></div>
     </div>
+    <div class="two">
+      <div class="nada-3"></div>
+      <div class="nada-4"></div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -41,11 +16,69 @@ export default {
 }
 </script>
 <style scoped>
-.v-card.on-hover.v-theme--dark {
-    background-color: rgba(#FFF, 0.8)
+.main {
+  position: relative;
+  padding: 0;
 }
 
-.v-card.on-hover.v-theme--dark.v-card__text {
-    color: #000
+.one {
+  widows: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-</style>
+
+.nada-1 {
+  width: 50%;
+  background-image: url("../../assets/dd.webp");
+  background-size: cover;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -webkit-box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -moz-box-shadow: 3px 5px 12px 0px rgba(92, 92, 92, 0.75);
+}
+
+.nada-2 {
+  width: 50%;
+  background-image: url("../../assets/imagesd.jpeg");
+  background-size: cover;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -webkit-box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -moz-box-shadow: 3px 5px 12px 0px rgba(92, 92, 92, 0.75);
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nada-3 {
+  width: 50%;
+  background-image: url("../../assets/imagesf.jpeg");
+  background-size: cover;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -webkit-box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -moz-box-shadow: 3px 5px 12px 0px rgba(92, 92, 92, 0.75);
+}
+
+.nada-4 {
+  width: 50%;
+  background-image: url("../../assets/images.jpeg");
+  background-size: cover;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -webkit-box-shadow: 3px 5px 12px 0px rgb(92 92 92 / 75%);
+  -moz-box-shadow: 3px 5px 12px 0px rgba(92, 92, 92, 0.75);
+}</style>
