@@ -17,8 +17,8 @@ For pushing into git :
 $ git init
 $ git status
 $ git add .
-$ sudo git config --global user.name "MahmoudKhaled-Nada"
-$ git config --global user.email "user email"
+$ sudo git config --global user.name "Mahmoud-Khaled-Nada"
+$ sudo git config --global user.email "mahmoudkhalednada00@gmail.com"
 $ git commit -m "commit message"
 $ git remote add origin "github repository link"
 $ git push -u origin master 
