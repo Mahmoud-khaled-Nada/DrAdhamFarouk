@@ -1,14 +1,19 @@
 <template>
-  <div>
-    <information-me />
-    <!-- <v-btn id="kkk">cccccccc</v-btn> -->
-  </div>
+    <section-one />
+    <section-two />
+    <section-three />
 </template>
 <script>
-import InformationMe from "@/components/home-component/InformationMe.vue"
+import SectionOne from "@/components/Home/SectionOne.vue"
+import SectionTwo from "@/components/Home/SectionTwo.vue"
+import SectionThree from "@/components/Home/SectionThree.vue"
 export default {
   name:"home-in",
-  components: { InformationMe },
+  components: {
+    SectionOne,
+    SectionTwo,
+    SectionThree
+   },
 
 }
 </script>

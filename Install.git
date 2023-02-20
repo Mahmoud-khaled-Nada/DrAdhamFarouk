@@ -12,9 +12,7 @@ commend Git {
  sudo git push -u origin master 
  username == > "Mahmoud-khaled-Nada"
  passw    == > {
-    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,
-    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
-    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
+
  }
 }
 Yout git {
