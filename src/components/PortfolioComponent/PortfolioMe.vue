@@ -6,14 +6,6 @@
         <div class="prev-btn navigation">
           <i class="uil uil-angle-left-b"></i>
         </div>
-        <!-- <div class="images">
-            <img class="showImage" src='https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_11-03.jpg'>
-            <img src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_11-03.jpg">
-            <img src="./assets/booking.jpg">
-            <img src="./assets/balance.jpg">
-            <img src="./assets/erp2.webp">
-            <img src="./assets/mvcaccounting.jpg">
-          </div> -->
         <div class="next-btn navigation">
           <i class="uil uil-angle-right-b"></i>
         </div>
@@ -33,9 +25,9 @@
           <button class="filler-btn" data-filter=".">{{  }}</button>
         </div>
       </div>
-      <div class="portfolio-gallery">
+      <div class="portfolio-gallery" v-motion-slide-bottom>
         <!-- new Rhinoplasty -->
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_11-03.jpg">
@@ -53,7 +45,7 @@
             <a href="" class="btn secondary-btn sm">Read more</a>
           </div>
         </div>
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_05.jpg"
@@ -73,7 +65,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_11-01.jpg"
@@ -93,7 +85,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_03-01.jpg"
@@ -112,7 +104,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_08.jpg"
@@ -131,7 +123,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card product">
+        <div class="mix prt-card product" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_06.jpg">
@@ -152,7 +144,7 @@
         <!-- end Rhinoplasty -->
 
         <!-- new Breast Surgery -->
-        <div class="mix prt-card inter">
+        <div class="mix prt-card inter" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Breast-Augmentation-_01.jpg">
@@ -171,7 +163,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card inter">
+        <div class="mix prt-card inter" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Augmentation-Mastopexy-_01.jpg">
@@ -189,7 +181,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card inter">
+        <div class="mix prt-card inter" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Mammaplasty-_02-01.jpg">
@@ -207,7 +199,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card inter">
+        <div class="mix prt-card inter" v-motion-pop-visible>
           <div class="prt-imade">
             <img
               src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Augmentation-Mastopexy-_02.jpg">
@@ -225,7 +217,7 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card inter">
+        <div class="mix prt-card inter" v-motion-pop-visible>
           <div class="prt-imade">
             <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Mammaplasty-_01.jpg">
             <div class="prt-overlay">

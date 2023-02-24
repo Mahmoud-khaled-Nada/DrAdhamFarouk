@@ -3,7 +3,7 @@
     <section class="services section" id="services">
         <img src="./assets/triangle.png" class="shape triangle" alt="">
         <div class="container">
-            <div class="services-info">
+            <div class="services-info" >
                 <h3 class="sub-heading">My Services</h3>
                 <h1 class="heading">Things I may do for my clients</h1>
                 <p class="text">
@@ -12,16 +12,16 @@
                 </p>
                 <div class="milestones">
                     <div class="ml">
-                        <h2 class="number"><span data-target="2">0</span>+</h2>
+                        <h2 class="number"><span data-target="2">30</span>+</h2>
                         <h5>Years</h5>
                     </div>
                     <div class="ml">
-                        <h2 class="number"><span data-target="45">0</span>+</h2>
-                        <h5>Projects</h5>
+                        <h2 class="number"><span data-target="45">5000</span>+</h2>
+                        <h5>Consulting</h5>
                     </div>
                     <div class="ml">
-                        <h2 class="number"><span data-target="30">0</span>+</h2>
-                        <h5>Clients</h5>
+                        <h2 class="number"><span data-target="30">5000</span>+</h2>
+                        <h5>operations</h5>
                     </div>
                 </div>
                 <!-- <div class="cta">
@@ -31,7 +31,7 @@
                 </div> -->
             </div>
             <div class="services-grid">
-                <div class="srv-card">
+                <div class="srv-card" v-motion-pop-visible-once>
                     <div class="card-desc">
                         <h3>E-commerce</h3>
                         <p class="text">
@@ -40,7 +40,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card">
+                <div class="srv-card" v-motion-pop-visible-once>
                     <div class="card-desc">
                         <h3>Servicing Applications</h3>
                         <p class="text">
@@ -49,7 +49,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card">
+                <div class="srv-card" v-motion-pop-visible-once> 
                     <div class="card-desc">
                         <h3>Mobile App</h3>
                         <p class="text">
@@ -58,7 +58,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card">
+                <div class="srv-card" v-motion-pop-visible-once>
                     <div class="card-desc">
                         <h3>App Desing</h3>
                         <p class="text">

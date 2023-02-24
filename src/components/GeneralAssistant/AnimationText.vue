@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Coding is
+        <h1>www
             <span class="typed-text">{{ typeValue }}</span>
             <span class="cursor" :class="{ 'typing': typeStatus }">&nbsp;</span>
         </h1>
@@ -14,7 +14,7 @@ export default {
         return {
             typeValue: '',
             typeStatus: false,
-            typeArray: ['fun', 'awesome', 'a journey', 'life'],
+            typeArray: ['.AdhamFarouk.com'],
             typingSpeed: 200,
             erasingSpeed: 100,
             newTextDelay: 2000,
@@ -60,17 +60,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 h1 {
-    font-size: 6rem;
+    font-size: 20px;
     font-weight: normal;
+        margin-left: 10px;
 
     span.typed-text {
         color: #D2B94B;

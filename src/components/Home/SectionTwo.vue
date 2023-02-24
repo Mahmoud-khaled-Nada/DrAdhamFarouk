@@ -7,10 +7,10 @@
           </div>
               <v-row>
                   <v-col cols="12" xs="11" sm="10" md="7" lg="7" xl="7">
-                      <carouse-image />
+                      <carouse-image v-motion-pop/>
                   </v-col>
                   <v-col cols="12" xs="11" sm="10" md="5" lg="5" xl="5">
-                      <about-us />
+                      <about-us v-motion-pop/>
                   </v-col>
               </v-row>
           </v-container>

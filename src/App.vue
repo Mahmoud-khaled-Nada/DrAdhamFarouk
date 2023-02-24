@@ -23,13 +23,18 @@
           </v-col>
         </v-row>
       </v-container>
+      <footer-lay />
   </v-app>
 </template>
 
 <script>
-import BtnComponent from "@/components/App/BtnComponent.vue"
+import BtnComponent from "@/components/layout/BtnComponent.vue"
+import FooterLay from "@/components/layout/FooterLay.vue"
 export default {
-  components:{BtnComponent},
+  components:{
+    BtnComponent,
+     FooterLay,
+     },
   data: () => ({
     drawer: null,
     items: [
