@@ -14,9 +14,11 @@
     box-sizing: border-box;
     position: relative;
 }
+
 .v-sheet {
     background: none;
 }
+
 .headr {
     display: flex;
     justify-content: space-around;
@@ -49,9 +51,8 @@
 }
 
 .infor {
-    /* margin: 10px; */
     position: relative;
-    top: 190px;;
+    top: 42px;
     width: 100%;
 }
 
@@ -72,51 +73,53 @@
     position: relative;
     padding: 0;
 }
+
 .sconde-infor img {
     max-width: 100%;
 }
+
 .sconde-infor p {
     text-align: justify;
     font-size: 13px;
     color: #222;
 }
 
-.mn-video {
-
-}
+.mn-video {}
 
 
-.backgro-infor{
+.backgro-infor {
     position: relative;
     z-index: 0;
     padding: 0;
     margin: 0;
 }
 
-.backgro-infor .img-one{
+.backgro-infor .img-one {
     position: absolute;
     top: 313px;
     width: 250px;
 }
-.backgro-infor .img-two{
+
+.backgro-infor .img-two {
     position: absolute;
     top: -55px;
     left: 45px;
 }
 
 
-.backgro-infor .img-theer{
+.backgro-infor .img-theer {
     position: absolute;
     top: 103px;
     left: -410px;
     width: 400px;
     opacity: 0.5;
 }
-.backgro-infor .triangle-one{
-position: absolute;
-top: 128px;
-left: 78%;
-width: 150px;
-z-index: 0;
-opacity: 0.5;
+
+.backgro-infor .triangle-one {
+    position: absolute;
+    top: 128px;
+    left: 78%;
+    width: 150px;
+    z-index: 0;
+    opacity: 0.5;
 }

@@ -16,7 +16,7 @@
     </v-app-bar>
     <v-container fluid class="all-main">
       <v-row>
-        <v-col cols="11" style="margin: 0 auto;">
+        <v-col cols="10" style="margin: 0 auto;">
             <v-main>
               <router-view />
             </v-main>

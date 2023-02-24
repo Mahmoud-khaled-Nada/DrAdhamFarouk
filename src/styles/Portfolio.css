@@ -710,7 +710,7 @@ body.open .hamburger .bar:last-child {
 }
 
 .srv-card {
-  background-color: var(--bg-color-2);
+  background-color: #fff;
   border-radius: 15px;
   padding: 2.5rem 2.1rem;
   display: flex;
@@ -719,6 +719,11 @@ body.open .hamburger .bar:last-child {
   justify-content: space-between;
   min-height: 280px;
   transition: 0.3s background-color;
+  z-index: 111111;
+}
+.srv-card:focus{
+  border: 2px solid blue;
+  /* transition: 1s; */
 }
 
 .srv-card h3 {
@@ -749,8 +754,8 @@ body.open .hamburger .bar:last-child {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 15px solid var(--main-color-1);
-  z-index: -1;
+  border: 15px solid red;
+  z-index: 0;
   opacity: 0.07;
 }
 
@@ -776,10 +781,10 @@ body.open .hamburger .bar:last-child {
 }
 
 .portfolio-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .portfolio-title {
