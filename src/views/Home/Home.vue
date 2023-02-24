@@ -1,7 +1,7 @@
 <template>
     <section-one />
     <section-two />
-    <section-three />
+    <section-three/>
     <section-four />
 </template>
 <script>

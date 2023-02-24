@@ -23,7 +23,7 @@ const routes = [
   },
   {
     path: '/ScrollDown',
-    component: () => import('@/views/ScrollDown.vue')
+    component: () => import('@/views/Home/ScrollDown.vue')
   }
 ]
 
