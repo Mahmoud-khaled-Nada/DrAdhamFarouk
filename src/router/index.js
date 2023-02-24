@@ -20,6 +20,10 @@ const routes = [
   {
     path: '/ServicesMe',
     component: () => import('@/components/PortfolioComponent/ServicesMe.vue')
+  },
+  {
+    path: '/ScrollDown',
+    component: () => import('@/views/ScrollDown.vue')
   }
 ]
 

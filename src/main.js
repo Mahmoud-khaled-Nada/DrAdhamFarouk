@@ -8,6 +8,7 @@ import { createApp } from 'vue'
 // Components
 import App from './App.vue'
 import store from './store';
+// import VueScrollReveal from 'vue-scroll-reveal';
 
 // Plugins
 import { registerPlugins } from '@/plugins'
@@ -25,8 +26,8 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 library.add(faUserSecret)
 
 const app = createApp(App)
-.component('font-awesome-icon', FontAwesomeIcon)
-.use(store)
+    app.component('font-awesome-icon', FontAwesomeIcon)
+    app.use(store)
 
 registerPlugins(app)
 
