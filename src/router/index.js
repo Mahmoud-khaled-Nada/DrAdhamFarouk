@@ -22,8 +22,8 @@ const routes = [
     component: () => import('@/components/PortfolioComponent/ServicesMe.vue')
   },
   {
-    path: '/ScrollDown',
-    component: () => import('@/views/Home/ScrollDown.vue')
+    path: '/FootTest',
+    component: () => import('@/components/layout/footer/FootTest.vue')
   }
 ]
 

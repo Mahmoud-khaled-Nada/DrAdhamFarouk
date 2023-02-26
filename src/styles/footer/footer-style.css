@@ -1,0 +1,33 @@
+/* --------------- Fonts used : Poppins + Abril Fatface --------------- */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* overflow-x: hidden; */
+    font-family: "Poppins", sans-serif;
+    /* transition: 0.3s background-color; */
+}
+
+.foot-container{
+    background: #eee;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    margin: 5px -20px;
+    padding: 25px;
+}
+
+.foot-icon {
+    background: #0fdf;
+}

@@ -29,7 +29,7 @@
 
 <script>
 import BtnComponent from "@/components/layout/BtnComponent.vue"
-import FooterLay from "@/components/layout/FooterLay.vue"
+import FooterLay from "@/components/layout/footer/FooterLay.vue"
 export default {
   components:{
     BtnComponent,
