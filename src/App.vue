@@ -2,7 +2,9 @@
   <v-app id="inspire">
     <v-app-bar flat>
       <v-container class="fill-height d-flex align-center">
-        <v-avatar class="me-10 ms-4" color="grey-darken-1" size="32"> </v-avatar>
+        <v-avatar class="me-10 ms-4" color="grey-darken-1" size="40">
+          <v-img src="./assets/d592a860-8521-4809-a9d3-e032c9fe5ff3.jpg"></v-img>
+        </v-avatar>
         <v-btn v-for="(item, i) in items" :key="i" :value="item" :to="item.link" link color="#00d084">
           <v-icon :icon="item.icon"></v-icon>
           <v-list-item-title v-text="item.title"></v-list-item-title>
@@ -20,16 +22,16 @@
             <v-main>
               <router-view />
             </v-main>
+            <footer-lay />
           </v-col>
         </v-row>
       </v-container>
-      <footer-lay />
   </v-app>
 </template>
 
 <script>
 import BtnComponent from "@/components/layout/BtnComponent.vue"
-import FooterLay from "@/components/layout/footer/FooterLay.vue"
+import FooterLay from "@/components/layout/FooterLay.vue"
 export default {
   components:{
     BtnComponent,

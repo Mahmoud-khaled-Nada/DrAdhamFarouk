@@ -6,28 +6,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    /* overflow-x: hidden; */
     font-family: "Poppins", sans-serif;
-    /* transition: 0.3s background-color; */
 }
 
 .foot-container{
     background: #eee;
     margin-top: 50px;
 }
-
-img {
-    max-width: 100%;
-    margin: 5px -20px;
-    padding: 25px;
-}
-
-.foot-icon {
-    background: #0fdf;
+iframe {
+    max-width: 100%; 
+    height: 100%;
 }

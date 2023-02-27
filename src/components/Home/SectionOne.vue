@@ -11,7 +11,6 @@
                                 <div class="text-i nfor">
                                     <h2>Dr. Adham Farouk</h2>
                                     <h3>Plastic Surgery Clinic</h3>
-                                    <!-- <h3>www.AdhamFarouk.com</h3> -->
                                     <animation-text />
                                 </div>
                                 <div class="backgro-infor">

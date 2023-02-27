@@ -19,6 +19,7 @@
 </template>
 <script>
 import CarouseImage from "@/components/Home/HomeComponent/CarouseImage.vue"
+// import AboutMe from "@/components/PortfolioComponent/AboutMe.vue"
 import AboutUs from "@/views/Home/AboutUs.vue"
 export default {
   name: "SectionTwo",
@@ -42,4 +43,5 @@ export default {
 </script>
 <style scoped>
 @import "@/styles/InformationMe.css";
+@import "@/styles/Portfolio.css";
 </style>
