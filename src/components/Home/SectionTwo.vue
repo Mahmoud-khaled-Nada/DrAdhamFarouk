@@ -6,11 +6,11 @@
               <img class="triangle-one" src="../../assets/triangle.png">
           </div>
               <v-row>
-                  <v-col cols="12" xs="11" sm="10" md="7" lg="7" xl="7">
+                  <v-col cols="12" md="7" lg="7" xl="7">
                       <carouse-image v-motion-pop/>
                   </v-col>
-                  <v-col cols="12" xs="11" sm="10" md="5" lg="5" xl="5">
-                      <about-us v-motion-pop/>
+                  <v-col cols="12" md="5" lg="5" xl="5">
+                      <specialization-in v-motion-pop/>
                   </v-col>
               </v-row>
           </v-container>
@@ -19,13 +19,12 @@
 </template>
 <script>
 import CarouseImage from "@/components/Home/HomeComponent/CarouseImage.vue"
-// import AboutMe from "@/components/PortfolioComponent/AboutMe.vue"
-import AboutUs from "@/views/Home/AboutUs.vue"
+import SpecializationIn from "@/components/Home/HomeComponent/SpecializationIn.vue"
 export default {
   name: "SectionTwo",
   components:{
       CarouseImage,
-      AboutUs
+      SpecializationIn
   },
   data() {
       return {

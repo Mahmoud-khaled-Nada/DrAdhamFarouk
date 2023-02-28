@@ -5,9 +5,9 @@
         <v-img :aspect-ratio="16 / 9" cover
           src="http://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_38.jpg">
           <v-expand-transition>
-            <div v-if="isHovering" class="d-flex transition-fast-in-fast-out bg-orange-darken-2 v-card--reveal text-h2"
+            <div v-if="isHovering" class="d-flex transition-fast-in-fast-out bg-green-accent-3 v-card--reveal text-h2"
               style="height: 100%">
-              $14.99
+              Lorem ipsum
             </div>
           </v-expand-transition>
         </v-img>
@@ -35,8 +35,8 @@ export default {
       {
         from: 'Plastic Surgery',
         message: `means restoration of the natural form of human
-                            body. The extensive field of Plastic Surgery intervenes with the
-                            boundaries of other fields of science and art`,
+                  body. The extensive field of Plastic Surgery intervenes with the
+                  boundaries of other fields of science and art`,
         color: 'deep-purple-lighten-1',
       },
       //   {
@@ -59,20 +59,3 @@ export default {
   width: 100%;
 }
 </style>
-
-
-
-
-<!--
-                            <v-sheet class="pa-2 ma-2">
-                            <div class="sconde-infor">
-                                <img
-                                    src="http://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_38.jpg" />
-                                <p>
-                                    Plastic Surgery means restoration of the natural form of human
-                                    body. The extensive field of Plastic Surgery intervenes with the<br />
-                                    boundaries of other fields of science and art
-                                </p>
-                            </div>
-                        </v-sheet>
- -->

@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="controls">
       <div class="portfolio-header">
         <div class="portfolio-title">
           <h3 class="heading">Sample Case</h3>
@@ -379,8 +379,9 @@ export default {
     }
   },
   mounted() {
-    var containerEl = document.querySelector('.container');
-    var mixer = mixitup(containerEl);
+    const containerEl = document.querySelector('.controls');
+    const mixer = mixitup(containerEl);
+    return mixer ;
   }
 }
 </script>

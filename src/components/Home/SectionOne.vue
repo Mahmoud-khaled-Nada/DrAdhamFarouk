@@ -3,7 +3,7 @@
         <div class="headr">
             <v-container fluid>
                 <v-row>
-                    <v-col cols="12" xs="11" sm="11" md="4" lg="6" xl="6">
+                    <v-col cols="12" md="4" lg="6" xl="6">
                         <v-sheet class="pa-2 ma-2">
                             <div class="first-infor" v-motion-pop>
                                 <img
@@ -11,7 +11,7 @@
                                 <div class="text-i nfor">
                                     <h2>Dr. Adham Farouk</h2>
                                     <h3>Plastic Surgery Clinic</h3>
-                                    <animation-text />
+                                    <!-- <animation-text /> -->
                                 </div>
                                 <div class="backgro-infor">
                                     <img class="img-one" src="../../assets/circle2.png" alt="">
@@ -24,7 +24,7 @@
                             </div>
                         </v-sheet>
                     </v-col>
-                    <v-col cols="12" xs="11" sm="11" md="8" lg="6" xl="6">
+                    <v-col cols="12" md="8" lg="6" xl="6">
                         <plastic-surgery v-motion-pop />
                     </v-col>
                 </v-row>
@@ -35,13 +35,13 @@
 <script>
 import PlasticSurgery from "@/components/Home/HomeComponent/PlasticSurgery.vue"
 import ClinicsScope from "@/components/Home/HomeComponent/ClinicsScope.vue"
-import AnimationText from "@/components/GeneralAssistant/AnimationText.vue"
+// import AnimationText from "@/components/GeneralAssistant/AnimationText.vue"
 export default {
     name: "SectionOne",
     components:{
         PlasticSurgery,
         ClinicsScope,
-        AnimationText,
+        // AnimationText,
     },
     data() {
         return {
