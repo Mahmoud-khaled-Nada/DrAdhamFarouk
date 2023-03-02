@@ -17,6 +17,11 @@ const routes = [
     name: 'PicturesBeforeSfter',
     component: () => import('@/views/Home/PicturesBeforeSfter.vue'),
   },
+    {
+    path: '/firstPage',
+    name: 'firstPage',
+    component: () => import('@/views/Home/firstPage.vue'),
+  },
 ]
 
 const router = createRouter({

@@ -6,11 +6,11 @@
                     <v-col cols="12" md="4" lg="6" xl="6">
                         <v-sheet class="pa-2 ma-2">
                             <div class="first-infor" v-motion-pop>
-                                <img
-                                    src="https://doctoradham.com/blog/wp-content/uploads/2017/03/cropped-cropped-Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_20-1-2.jpg" />
+                                <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/cropped-cropped-Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_20-1-2.jpg" />
                                 <div class="text-i nfor">
                                     <h2>Dr. Adham Farouk</h2>
                                     <h3>Plastic Surgery Clinic</h3>
+                                    <h3>www.AdhamFarouk.com</h3>
                                     <!-- <animation-text /> -->
                                 </div>
                                 <div class="backgro-infor">
@@ -35,13 +35,11 @@
 <script>
 import PlasticSurgery from "@/components/Home/HomeComponent/PlasticSurgery.vue"
 import ClinicsScope from "@/components/Home/HomeComponent/ClinicsScope.vue"
-// import AnimationText from "@/components/GeneralAssistant/AnimationText.vue"
 export default {
     name: "SectionOne",
     components:{
         PlasticSurgery,
         ClinicsScope,
-        // AnimationText,
     },
     data() {
         return {

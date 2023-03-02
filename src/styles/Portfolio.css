@@ -718,15 +718,13 @@ body.open .hamburger .bar:last-child {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  min-height: 280px;
+  min-height: 200px;
   transition: 0.3s background-color;
   /* z-index: -1; */
 }
 .srv-card:hover {
   background: #69f0ae;
   color: #fff;
-  /* transform: translate(200px, 0); */
-  /* transition: 0.2s; */
 }
 
 .srv-card h3 {

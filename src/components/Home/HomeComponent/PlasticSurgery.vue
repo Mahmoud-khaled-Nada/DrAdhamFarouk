@@ -2,7 +2,7 @@
   <div>
     <v-hover v-slot="{ isHovering, props }">
       <v-card class="mx-auto" color="grey-lighten-4" max-width="100%" v-bind="props">
-        <v-img :aspect-ratio="16 / 9" cover
+        <v-img cover
           src="http://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-_38.jpg">
           <v-expand-transition>
             <div v-if="isHovering" class="d-flex transition-fast-in-fast-out bg-green-accent-3 v-card--reveal text-h2"
