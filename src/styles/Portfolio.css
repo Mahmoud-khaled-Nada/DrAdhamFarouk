@@ -711,7 +711,7 @@ body.open .hamburger .bar:last-child {
 }
 
 .srv-card {
-  background-color: #fff;
+  background-color: #eee;
   border-radius: 15px;
   padding: 2.5rem 2.1rem;
   display: flex;
@@ -720,14 +720,13 @@ body.open .hamburger .bar:last-child {
   justify-content: space-between;
   min-height: 280px;
   transition: 0.3s background-color;
-  z-index: 111111;
-    background: #69f0ae;
-      color: #fff;
-      transform: translate(100px , 0);
+  /* z-index: -1; */
 }
-.srv-card:focus {
-  border: 2px solid blue;
-  /* transition: 1s; */
+.srv-card:hover {
+  background: #69f0ae;
+  color: #fff;
+  /* transform: translate(200px, 0); */
+  /* transition: 0.2s; */
 }
 
 .srv-card h3 {

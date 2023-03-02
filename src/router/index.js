@@ -13,18 +13,10 @@ const routes = [
     component: () => import('@/views/Home/AboutUs.vue'),
   },
   {
-    path: '/PortfolioMe',
-    name: 'PortfolioMe',
-    component: () => import('@/components/PortfolioComponent/PortfolioMe.vue'),
+    path: '/PicturesBeforeSfter',
+    name: 'PicturesBeforeSfter',
+    component: () => import('@/views/Home/PicturesBeforeSfter.vue'),
   },
-  {
-    path: '/ServicesMe',
-    component: () => import('@/components/PortfolioComponent/ServicesMe.vue')
-  },
-  {
-    path: '/FirstPage',
-    component: () => import('@/views/Home/FirstPage.vue')
-  }
 ]
 
 const router = createRouter({

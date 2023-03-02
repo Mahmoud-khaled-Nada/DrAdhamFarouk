@@ -64,82 +64,6 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card product">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_11-01.jpg"
-              alt="">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcbooking.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h">
-                </i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ titel }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card product">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_03-01.jpg"
-              alt="">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://picosys.atwebpages.com/nasih-system/public/wform.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ titel }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card product">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_08.jpg"
-              alt="">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ titel }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card product">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Rhinoplasty-_06.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcaccounting.atwebpages.com/view/Login/login.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ titel }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
         <!-- end Rhinoplasty -->
 
         <!-- new Breast Surgery -->
@@ -171,59 +95,6 @@
                 <i class="uil uil-search-plus"></i>
               </span>
               <a href="http://picosys.atwebpages.com/nasih-system/public/wform.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>Breast Surgery</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card inter">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/04/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Mammaplasty-_02-01.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>Breast Surgery</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card inter">
-          <div class="prt-imade">
-            <img
-              src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Augmentation-Mastopexy-_02.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>Breast Surgery</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card inter">
-          <div class="prt-imade">
-            <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Mammaplasty-_01.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
                 <i class="uil uil-link-h"></i>
               </a>
             </div>
@@ -271,23 +142,6 @@
             <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
           </div>
         </div>
-        <div class="mix prt-card surgery">
-          <div class="prt-imade">
-            <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Gynaecomastia-_02.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ MaleBreastSurgery }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
         <!-- end Male Breast Surgery -->
 
 
@@ -318,40 +172,6 @@
                 <i class="uil uil-search-plus"></i>
               </span>
               <a href="http://picosys.atwebpages.com/nasih-system/public/wform.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ BodySculpture }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card sculpture">
-          <div class="prt-imade">
-            <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Body-Sculpture-_01.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
-                <i class="uil uil-link-h"></i>
-              </a>
-            </div>
-          </div>
-          <div class="prt-desc">
-            <h3>{{ BodySculpture }}</h3>
-            <!-- <a href="" class="btn secondary-btn sm">Read more</a> -->
-          </div>
-        </div>
-        <div class="mix prt-card sculpture">
-          <div class="prt-imade">
-            <img src="https://doctoradham.com/blog/wp-content/uploads/2017/03/Dr-Adham-Farouk-Plastic-Surgery-Clinic-Alexandria-Egypt-Thigh-lift-_01.jpg">
-            <div class="prt-overlay">
-              <span class="prt-icon zoom-icon" style="--i: 0.0s">
-                <i class="uil uil-search-plus"></i>
-              </span>
-              <a href="http://mvcinncesjs.atwebpages.com/view/index.php" class="prt-icon" style="--i: 0.15s">
                 <i class="uil uil-link-h"></i>
               </a>
             </div>
