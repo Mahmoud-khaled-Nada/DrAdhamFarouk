@@ -27,6 +27,11 @@ const routes = [
     name: 'OnlineCounseling',
     component: () => import('@/views/Home/OnlineCounseling.vue'),
   },
+    {
+    path: '/OnlineBooking',
+    name: 'OnlineBooking',
+    component: () => import('@/views/Home/OnlineBooking.vue'),
+  },
 ]
 
 const router = createRouter({
