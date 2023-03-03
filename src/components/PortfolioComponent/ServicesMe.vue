@@ -24,14 +24,9 @@
                         <h5>operations</h5>
                     </div>
                 </div>
-                <!-- <div class="cta">
-                    <a href="#" class="btn">Hire my</a>
-                    <a href="./assets/finish-mn-CV222.pdf" download class="btn
-                  secondary-btn">Download CV</a>
-                </div> -->
             </div>
             <div class="services-grid">
-                <div class="srv-card" v-motion-pop-visible-once>
+                <div class="srv-card">
                     <div class="card-desc">
                         <h3>E-commerce</h3>
                         <p class="text">
@@ -40,7 +35,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card" v-motion-pop-visible-once>
+                <div class="srv-card">
                     <div class="card-desc">
                         <h3>Servicing Applications</h3>
                         <p class="text">
@@ -49,7 +44,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card" v-motion-pop-visible-once> 
+                <div class="srv-card"> 
                     <div class="card-desc">
                         <h3>Mobile App</h3>
                         <p class="text">
@@ -58,7 +53,7 @@
                     </div>
                     <!-- <a href="" class="btn secondary-btn">Explore More</a> -->
                 </div>
-                <div class="srv-card" v-motion-pop-visible-once>
+                <div class="srv-card">
                     <div class="card-desc">
                         <h3>App Desing</h3>
                         <p class="text">

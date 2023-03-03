@@ -22,6 +22,11 @@ const routes = [
     name: 'firstPage',
     component: () => import('@/views/Home/firstPage.vue'),
   },
+  {
+    path: '/OnlineCounseling',
+    name: 'OnlineCounseling',
+    component: () => import('@/views/Home/OnlineCounseling.vue'),
+  },
 ]
 
 const router = createRouter({

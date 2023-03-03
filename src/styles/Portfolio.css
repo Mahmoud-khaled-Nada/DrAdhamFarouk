@@ -874,11 +874,11 @@ body.open .hamburger .bar:last-child {
   transition: 0.5s;
 }
 
-.prt-imade:hover .prt-overlay {
+/* .prt-imade:hover .prt-overlay {
   pointer-events: auto;
   background-color: var(--bg-color-transparent);
   backdrop-filter: blur(10px);
-}
+} */
 
 .prt-icon {
   color: hsl(var(--hue-1), 61%, 24%);
@@ -897,19 +897,18 @@ body.open .hamburger .bar:last-child {
   transition: 0.3s;
 }
 
-.prt-icon:hover {
+/* .prt-icon:hover {
   background-color: var(--main-color-dark-2);
-}
+} */
 
-.prt-imade:hover .prt-icon {
+/* .prt-imade:hover .prt-icon {
   opacity: 1;
   transform: translateY(0px);
   transform: 0.3s var(--i);
-}
+} */
 
 .modal {
   position: fixed;
-  top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
